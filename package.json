@@ -13,17 +13,27 @@
 		"@cloudflare/vitest-pool-workers": "^0.6.4",
 		"@cloudflare/workers-types": "^4.20250224.0",
 		"@eslint/js": "^9.21.0",
+		"@types/node": "^22.13.8",
 		"eslint": "^9.21.0",
 		"eslint-config-prettier": "^10.0.2",
 		"eslint-plugin-prettier": "^5.2.3",
+		"fast-glob": "^3.3.3",
+		"fs-extra": "^11.3.0",
 		"jiti": "^2.4.2",
+		"p-map": "^7.0.3",
 		"prettier": "^3.5.2",
+		"tsx": "^4.19.3",
 		"typescript": "^5.5.2",
 		"typescript-eslint": "^8.25.0",
 		"vitest": "~2.1.9",
 		"wrangler": "^3.111.0"
 	},
 	"dependencies": {
-
+		"@ibm/plex-mono": "^1.1.0",
+		"@ibm/plex-sans": "^1.1.0",
+		"@ibm/plex-sans-jp": "^1.1.0",
+		"@ibm/plex-sans-kr": "^1.1.0",
+		"@ibm/plex-sans-sc": "^1.1.0",
+		"@ibm/plex-sans-tc": "^1.1.1"
 	}
 }
