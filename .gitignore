@@ -171,4 +171,5 @@ dist
 .dev.vars
 .wrangler/
 
-assets/
+public/**/*.woff2
+public/**/*.css

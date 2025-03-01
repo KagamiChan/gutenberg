@@ -13,6 +13,12 @@
 
 export default {
   async fetch(request, env, ctx): Promise<Response> {
-    return new Response('Hello World!')
+    const resp = await env.ASSETS.fetch(request)
+    return new Response(resp.body, {
+      headers: {
+        'Access-Control-Allow-Origin': '*',
+        'Access-Control-Allow-Methods': 'GET, OPTIONS',
+      },
+    })
   },
 } satisfies ExportedHandler<Env>
